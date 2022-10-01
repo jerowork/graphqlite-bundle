@@ -19,7 +19,7 @@
     "php" : ">=7.4",
     "ext-json": "*",
     "thecodingmachine/graphqlite" : "^5.0",
-    "thecodingmachine/graphqlite-symfony-validator-bridge" : "^5.0",
+    "thecodingmachine/graphqlite-symfony-validator-bridge": "dev-jerowork/upgrade-symfony-to-6",
     "symfony/framework-bundle": "^5.4 || ^6",
     "symfony/validator": "^5.4 || ^6",
     "symfony/translation": "^5.4 || ^6",
@@ -31,6 +31,12 @@
     "thecodingmachine/cache-utils": "^1",
     "symfony/console": "^5.4 || ^6"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/jerowork/graphqlite-symfony-validator-bridge"
+    }
+  ],
   "require-dev": {
     "symfony/security-bundle": "^5.4 || ^6",
     "symfony/yaml": "^5.4 || ^6",
